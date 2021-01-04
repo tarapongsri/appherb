@@ -63,3 +63,73 @@
 .icon-hamberger {
     color: #fff;
 }
+
+/* Main title */
+#main-title {
+    font-family: 'Trirong', sans-serif;
+    text-align: center;
+    background-color: #51adcf ;
+    background-image: url(../images/Banner-main-title.png);
+}
+#main-title h1 {
+    font-family: 'Trirong', sans-serif;
+    font-weight: bold;
+    padding: 3%;
+}
+#main-title p {
+    font-family: 'Taviraj', sans-serif;
+    font-size: 1.5rem;
+    padding: 0% 15%;
+}
+
+@media (max-width: 1080px) {
+    #main-title p, h4{
+        font-size: 1.0rem;
+        
+    }
+    #main-title h1 {
+        font-size: 1.5rem;  
+    }
+}
+
+/* searchbar */
+.input-group {
+    width: 95%;
+    justify-content: center;
+    padding: 0% 0% 5% 5%;
+}
+
+@media (min-width: 1080px) {
+    .input-group-search-bar{
+        
+        padding: 0% 0% 10% 0%;
+        justify-content: center;
+    }
+    }
+
+/* conflict of interest */
+#conflict {
+    font-family: 'Trirong', sans-serif;
+    font-weight : bold;
+    color: #FFF;
+}
+
+/* feature */
+
+#features {
+    font-family: 'Trirong', sans-serif;
+    padding: 3% 5%;
+    justify-content: center;
+}
+/* จัด ตำแหน่ง feature */
+.feature-box {
+    text-align: center;
+}
+/* feature icon */
+.feature-icon {
+    color: #1aa6b7;
+    padding: 5%;
+}
+.feature-icon:hover {
+    text-shadow: 0px 0px 5px #00bcd4;
+}
