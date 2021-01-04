@@ -1,102 +1,156 @@
 <!DOCTYPE html>
 
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- Page titile -->
     <title>App Herb แหล่งข้อมูลสมุนไพรที่เชื่อถือได้</title>
-    <meta name="description" content="App Herb แหล่งข้อมูลสมุนไพรที่เชื่อถือได้" />
+    <meta
+      name="description"
+      content="App Herb แหล่งข้อมูลสมุนไพรที่เชื่อถือได้"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Appherb icon -->
-    <link rel="icon" href="images/appherb-icon.svg">
+    <link rel="icon" href="images/appherb-icon.svg" />
 
     <!-- Icon from font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
 
     <!-- Bootstrap installation-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
 
     <!-- font-family: 'Taviraj', serif; -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- font-family: 'Sarabun', sans-serif-->
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- font-family: 'Prompt', sans-serif; -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- font-family: 'Pattaya', sans-serif; -->
-    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- font-family: 'Montserrat', sans-serif; -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;900&display=swap"
-        rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- font-family: 'Ubuntu', sans-serif; -->
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- font-family: 'Open Sans', sans-serif; -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font-family: 'Trirong', serif; -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS styles sheet -->
     <link rel="stylesheet" href="css/styles.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Bootstrap Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
-        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
-        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
-        crossorigin="anonymous"></script>
-        
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
 
-
-        <!-- Header -->
-<section id="header">
-    <div class="container-fluid">
+    <!-- Header -->
+    <section id="header">
+      <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-custom">
-          <a class="navbar-brand" href="#header"> <img src="images/appherb-icon-fullname.svg" class="navbar-brand-logo"> </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#header">
+            <img
+              src="images/appherb-icon-fullname.svg"
+              class="navbar-brand-logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="fas fa-bars fa-2x icon-hamberger"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Search">ค้นหาข้อมูลสมุนไพร</a>
+                <a class="nav-link active" aria-current="page" href="#Search"
+                  >ค้นหาข้อมูลสมุนไพร</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-link-product" href="#articles">บทความ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link-product" href="#guideline">สรุปแนวทางการใช้สมุนไพรตามกลุ่มโรค</a>
+                <a class="nav-link nav-link-product" href="#guideline"
+                  >สรุปแนวทางการใช้สมุนไพรตามกลุ่มโรค</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link-product " href="#personalize">ข้อมูลเชิงลึกเฉพาะบุคคล</a>
+                <a class="nav-link nav-link-product" href="#personalize"
+                  >ข้อมูลงานวิจัยเชิงลึกเฉพาะบุคคล</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">เกี่ยวกับเรา</a>
               </li>
               <li class="nav-item">
-                <button class="nav-item-login btn btn-warning" type="button" href="">สมาชิก</button>
+                <button
+                  class="nav-item-login btn btn-warning"
+                  type="button"
+                  href=""
+                >
+                  สมาชิก
+                </button>
               </li>
 
               <!-- dropdown does not work
@@ -107,27 +161,97 @@
                     <a class="dropdown-item" href="">สมัครสมาชิก</a>
                 </div>
               </li> -->
-  
             </ul>
           </div>
         </nav>
       </div>
-</section>
+    </section>
 
-<!-- Main title -->
+    <!-- Main title -->
 
-<section id=main-title>
+    <section id="main-title">
+      
+      <div class="container-fluid">
+        
+        <div class="row">
+          <h1 class="col-lg-12">แหล่งรวบรวมข้อมูลสมุนไพรที่คุณเชื่อถือได้</h1>
 
+          <!-- <div class="input-group input-group-search-bar"> -->
+            <!-- <form class="input-group mb-3">
+        <input class="form-control" type="search" placeholder="ค้นหาข้อมูลสมุนไพร" aria-label="Search" list="datalistOptions" aria-describedby="button-addon2"> -->
+            <div class="col-lg-6 mx-auto">
+            <div class="input-group input-group-search-bar input-group-lg">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="ค้นหาข้อมูลสมุนไพร"
+                aria-label="Search"
+                aria-describedby="button-addon2"
+                list="datalistOptions"
+              />
+              <button
+                class="btn btn-lg btn-warning"
+                type="button"
+                id="button-addon2"
+              >
+                <i
+                  class="fas fa-search"
+                  aria-hidden="true"
+                  id="button-addon2"
+                ></i>
+                ค้นหา
+              </button>
+            <!-- รอเปลี่ยนเป็น ajex -->
+              <datalist id="datalistOptions">
+                <option value="ฟ้าทะลายโจร"></option>
+                <option value="งาดำ"></option>
+                <option value="น้ำมันรำข้าว"></option>
+                <option value="กระเทียม"></option>
+                <option value="ผักขี้หูด"></option>
+                <option value="กระเพรา"></option>
+              </datalist>
+            </div>
+        </div>
+            <!-- <button class="btn btn-lg btn-primary" type="button"><i class="fas fa-search"
+            aria-hidden="true" id="button-addon2"></i> ค้นหา</button> -->
+          <!-- </div> -->
+          <p id="about">
+            เราเป็นทีมนักวิจัยและเภสัชกร ที่สรุปข้อมูลประสิทธิภาพของสมุนไพร
+            อาหารเสริม และการแพทย์ทางเลือก
+            ผ่านการวิเคราะห์จากงานวิจัยโดยปราศจากอคติ
+            เพื่อทำให้คุณมีสุขภาพที่ดีและปลอดภัยมากขึ้น
+          </p>
+            <p><strong id="conflict"
+              >เราไม่มีส่วนเกี่ยวข้องกับการขายผลิตภัณฑ์จากสมุนไพรหรืออาหารเสริม</strong
+            >
+            ทุกข้อความของเรามีหลักฐานอ้างอิงตามหลักวิชาการ
+          </p>
+        </div>
+      </div>
+    </section>
 
+    <!-- Features -->
 
-
-
-
-
-
-</section>
-
-
-</body>
-
+  <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4 col-md-2 col-sm-1">
+        <!-- each column = 12 px if you want to use 3 separate row you need 4 unit -->
+        <!-- i or span for icon insert -->
+        <a href="#efficacy" class=""><i class="feature-icon fas fa-chart-bar fa-4x"></i></a>
+        <h3>ระดับประสิทธิภาพและความปลอดภัย</h3>
+        <p>วิเคราะห์จากการทดสอบในมนุษย์และการเก็บข้อมูลเชิงสถิติ</p>
+        
+      </div>
+      <div class="feature-box col-lg-4 col-md-2 col-sm-1">
+        <a href="#evidencelevel" class=""><i class="feature-icon fas fa-users fa-4x"></i></a>
+        <h3>ระดับความน่าเชื่อถือของข้อมูล</h3>
+        <p>ข้อมูลถูกวิเคราะห์และจัดเรียงตามระดับการศึกษาทางคลินิก</p>
+      </div>
+      <div class="feature-box col-lg-4 col-md-2 col-sm-1">
+        <a href="#unias" class=""><i class="feature-icon fas fa-bullseye fa-4x"></i></a>
+        <h3>ข้อมูลปราศจากอคติ</h3>
+        <p>ข้อมูลตรวจสอบเพื่อให้แน่ใจว่าไม่มีอคติจากผู้วิจัยและผู้สนับสนุนงานวิจัย </p>
+      </div>
+  </section>
+  </body>
 </html>
